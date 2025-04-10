@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="favicon.io/png" href="favicon.io/favicon-32x32.png"/>
+    
+</head>
+<body>
+    <header>
+        <div class="flex justify-between items-center bg-emerald-600 shadow-md rounded-lg p-4">
+            <div class="logo pt-2 flex items-center space-x-2 ">
+                <img src="images/movie logo.jpg" alt="Pagelogo" width="50" height="40" class="rounded-full animate-pulse">
+                <h1 class="text-4xl text-lime-300 font-bold">Your Movie Ranking Hub</h1>
+            </div>
+         
+      <div class=" mt-4 flex justify-center rounded-xl px-3 justify-between shadow-sm overflow-auto bg-emerald-200 p-3 m-2 ">
+        <h2 class="text-3xl text-bold text-lime-500">Action Movies <span class="animate-ping">>>>></span></h2>
+        <ul class="flex space-x-4 text-green-400 font-bold justify-between ">
+            <a href="index.html" class="hover:text-lime-500">Home</a>
+            <a href="action.html" class="hover:text-lime-500">Action</a>
+            <a href="adventures.html" class="hover:text-lime-500">Adventures</a>
+            <a href="romance.html" class="hover:text-lime-500">Romance</a>
+            <a href="series.html" class="hover:text-lime-500">Series</a>
+        </ul>
+    </div>
+    </header>
+    <!--action webpage-->
+    <main>
+        <!--Movie 02-->
+        <div class="movie-item shadow-sm rounded-lg p-4 bg-emerald-200 h-100 ">
+          <img src="images/Uppercut.jpeg" alt="UpperCut" width="190" height="350"> 
+            <h3><a href="https://youtu.be/uUB5d8iFYLo"><strong class="text-green-700 hover:text-lime-500">
+              UpperCut</strong></a></h3>
+            <p>Genre: Action
+             <br>Tittle:<strong>UpperCut</strong>
+             <br><strong>Rating:4/5 </strong>Views: 11.6M Likes: 990k
+            </p>
+       </div>
+ 
+  <section class="comments">
+    <div class="comm_all flex justify-center items-center space-x-4 mt-4 shadow-md rounded-lg p-4 bg-emerald-100">
+        <h1 class="text-3xl text-extrabold justify-center text-lime-600">
+            Drop Your Comment Here</h1>
+        <h3 class="text-2xl text-bold text-lime-300">Kudos comments on your Favorite movie 
+            <br>And Why you Ranked it 
+            ...
+        </h3>
+        <div>
+            <form action="index.html" method="post" class="flex flex-col space-y-4">
+                <input type="text" name="name" placeholder="Your Name" required class="p-2 border border-gray-300 rounded-lg">
+                <textarea name="comment" rows="4" placeholder="Your Comment" required class="p-2 border border-gray-300 rounded-lg"></textarea>
+                <button type="submit" class="bg-lime-500 text-white p-2 rounded-lg hover:bg-lime-600">Submit</button>
+            </form>
+        </div>
+        <div class=" flex justify-center items-center space-x-4 mt-4 shadow-md rounded-lg p-4 bg-emerald-100"">
+        <div class="comm_1 text-lg text-bold text-lime-800">
+            <img src="images/pic 2.jpeg" alt="photo">
+            <p>Name: Roland Sankara</p>
+            <p>Action attraction feels the best and the right palce to be, 
+                <br>It's the best holiday maker
+            </p>
+        </div>
+
+        <div class="comm_2 text-lg text-bold text-lime-800">
+            <img src="images/pic 3.webp" alt="photo height=50px width=50px">
+            <p>Name: Vuni Alfred</p>
+            <p>Nothing shakes the cinema walls like watching Adventure movies, 
+                <br>The Gorge... A movie to Watch....Love It.
+            </p>
+        </div>
+    </div>
+    </div>
+
+</section>
+    <footer class="bg-emerald-200 text-center p-4 mt-4">
+        <p class="text-lg text-green-700">© 2025 Action Attraction. All rights reserved.</p>
+        <p class="text-sm text-green-500">Follow us on social media for more updates!</p>
+    </footer>
+</main>
+    
+</body>
+</html>
